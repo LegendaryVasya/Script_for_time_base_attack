@@ -22,7 +22,7 @@ for user in username:
     doLogin(user)
     endTime = time.time()
     timings[user] = endTime - startTime
-    time.sleep(1)
+    time.sleep(1) #0.1 or 0.01 лучше )
 print("Finish requests")
 
 # Атака на основе времени, подразумевает, что бэкенд разработан плохо,
