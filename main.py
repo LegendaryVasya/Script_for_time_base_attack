@@ -2,7 +2,7 @@ import time
 import requests
 import json
 
-URL = 'http://10.10.250.88'
+URL = 'http://10.10.250.88/login'
 OPEN_USERNAMEFILE = open("names.txt","r")
 username =[]
 timings = dict()
